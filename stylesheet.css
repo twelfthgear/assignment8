@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.paintApp{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+}
+
+.paintApp > div{
+    font-size: 1px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
